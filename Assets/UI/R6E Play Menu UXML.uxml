@@ -1,0 +1,79 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/R6E%20Play%20Menu%20USS.uss?fileID=7433441132597879392&amp;guid=d3b7a2c24430da24db0f09d49f397937&amp;type=3#R6E Play Menu USS" />
+    <ui:VisualElement name="Background" class="background" style="top: -1px; left: 0;" />
+    <ui:VisualElement name="Tabs" class="tabs" style="border-bottom-width: 2px; border-left-color: rgba(13, 47, 63, 0.5); border-right-color: rgba(13, 47, 63, 0.5); border-top-color: rgba(13, 47, 63, 0.5); border-bottom-color: rgba(13, 47, 63, 0.5);">
+        <ui:VisualElement name="Logo" class="tabs-logo" />
+        <ui:VisualElement name="Play" class="tabs-section active">
+            <ui:VisualElement name="Gradient" class="tabs-section-gradient" />
+            <ui:Label text="PLAY" display-tooltip-when-elided="true" name="Label" class="tabs-section-label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Operators" class="tabs-section">
+            <ui:VisualElement name="Gradient" class="tabs-section-gradient" />
+            <ui:Label text="OPERATORS" display-tooltip-when-elided="true" name="Label" class="tabs-section-label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Progression" class="tabs-section">
+            <ui:VisualElement name="Gradient" class="tabs-section-gradient" />
+            <ui:Label text="PROGRESSION" display-tooltip-when-elided="true" name="Label" class="tabs-section-label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Tech" class="tabs-section">
+            <ui:VisualElement name="Gradient" class="tabs-section-gradient" />
+            <ui:Label text="TECH" display-tooltip-when-elided="true" name="Label" class="tabs-section-label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Codex" class="tabs-section">
+            <ui:VisualElement name="Gradient" class="tabs-section-gradient" />
+            <ui:Label text="CODEX" display-tooltip-when-elided="true" name="Label" class="tabs-section-label" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="Dashed-Line" class="dashed-line" style="width: 100%;" />
+    <ui:VisualElement name="Dashed-Line" class="dashed-line" style="top: 970px;" />
+    <ui:VisualElement name="Areas" class="areas">
+        <ui:VisualElement name="New-York-City" class="areas-section">
+            <ui:VisualElement name="Background" class="areas-section-background" style="background-image: url(&apos;project://database/Assets/Figma%20Assets/Textures/Section_NewYorkCity_Background.png?fileID=2800000&amp;guid=2cc3f591b0341034a843032bbb30bcc4&amp;type=3#Section_NewYorkCity_Background&apos;);" />
+            <ui:VisualElement name="Lock-Overlay" class="areas-section-lock-overlay" />
+            <ui:VisualElement name="Gradient" class="areas-section-gradient" />
+            <ui:Label text="54%" display-tooltip-when-elided="true" name="Completion" class="areas-section-completion" style="color: rgb(250, 225, 50);" />
+            <ui:Label text="NEW YOKR CITY" display-tooltip-when-elided="true" name="Name" class="areas-section-name" />
+            <ui:VisualElement name="Lock-Banner" class="areas-section-lock-banner">
+                <ui:VisualElement name="Icon" class="areas-section-lock-banner-icon" />
+                <ui:Label text="Reach Milestone 7" display-tooltip-when-elided="true" name="Text" class="areas-section-lock-banner-text" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Over-Overlay" class="areas-section-over-overlay" />
+        </ui:VisualElement>
+        <ui:VisualElement name="San-Francisco" class="areas-section">
+            <ui:VisualElement name="Background" class="areas-section-background" style="background-image: url(&apos;project://database/Assets/Figma%20Assets/Textures/Section_SanFrancisco_Background.png?fileID=2800000&amp;guid=b73a2e8628cf3f44294774ef2c8f3b5c&amp;type=3#Section_SanFrancisco_Background&apos;);" />
+            <ui:VisualElement name="Lock-Overlay" class="areas-section-lock-overlay" />
+            <ui:VisualElement name="Gradient" class="areas-section-gradient" />
+            <ui:Label text="0%" display-tooltip-when-elided="true" name="Completion" class="areas-section-completion" />
+            <ui:Label text="SAN FRANCISCO" display-tooltip-when-elided="true" name="Name" class="areas-section-name" />
+            <ui:VisualElement name="Lock-Banner" class="areas-section-lock-banner">
+                <ui:VisualElement name="Icon" class="areas-section-lock-banner-icon" />
+                <ui:Label text="Reach Milestone 7" display-tooltip-when-elided="true" name="Text" class="areas-section-lock-banner-text" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Over-Overlay" class="areas-section-over-overlay" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Alaska" class="areas-section lock">
+            <ui:VisualElement name="Background" class="areas-section-background" style="background-image: url(&apos;project://database/Assets/Figma%20Assets/Textures/Section_Alaska_B&amp;W_Background.png?fileID=2800000&amp;guid=d1bc5b89a2ea8c340b48ba58e475cf1c&amp;type=3#Section_Alaska_B&amp;W_Background&apos;);" />
+            <ui:VisualElement name="Lock-Overlay" class="areas-section-lock-overlay" />
+            <ui:VisualElement name="Gradient" class="areas-section-gradient" />
+            <ui:Label text="0%" display-tooltip-when-elided="true" name="Completion" class="areas-section-completion" />
+            <ui:Label text="ALASKA" display-tooltip-when-elided="true" name="Name" class="areas-section-name" />
+            <ui:VisualElement name="Lock-Banner" class="areas-section-lock-banner">
+                <ui:VisualElement name="Icon" class="areas-section-lock-banner-icon" />
+                <ui:Label text="Reach Milestone 7" display-tooltip-when-elided="true" name="Text" class="areas-section-lock-banner-text" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Over-Overlay" class="areas-section-over-overlay" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Truth-or-Consequences" class="areas-section lock" style="margin-right: 0;">
+            <ui:VisualElement name="Background" class="areas-section-background" style="background-image: url(&apos;project://database/Assets/Figma%20Assets/Textures/Section_TruthOrConsequences_B&amp;W_Background.png?fileID=2800000&amp;guid=32f7f9e7ed4831148a85fcab6608b781&amp;type=3#Section_TruthOrConsequences_B&amp;W_Background&apos;);" />
+            <ui:VisualElement name="Lock-Overlay" class="areas-section-lock-overlay" />
+            <ui:VisualElement name="Gradient" class="areas-section-gradient" />
+            <ui:Label text="0%" display-tooltip-when-elided="true" name="Completion" class="areas-section-completion" />
+            <ui:Label text="TRUTH OR CONSEQUENCES" display-tooltip-when-elided="true" name="Name" class="areas-section-name" />
+            <ui:VisualElement name="Lock-Banner" class="areas-section-lock-banner">
+                <ui:VisualElement name="Icon" class="areas-section-lock-banner-icon" />
+                <ui:Label text="Reach Milestone 11" display-tooltip-when-elided="true" name="Text" class="areas-section-lock-banner-text" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Over-Overlay" class="areas-section-over-overlay" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

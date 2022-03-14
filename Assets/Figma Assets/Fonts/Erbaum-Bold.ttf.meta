@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e7213f2c0efc1a7449780f40de0a2e46
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Erbaum
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 79ef209fde6e92b459108b039b479d04, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
